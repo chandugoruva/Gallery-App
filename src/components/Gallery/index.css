@@ -1,0 +1,33 @@
+.bg-color {
+  background-color: #ffffff;
+  padding: 20px;
+}
+.img {
+  height: 390px;
+  width: 800px;
+}
+.heading {
+  color: #1e293b;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.paragraph {
+  color: #64748b;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-shrink: 1;
+  max-width: 400px;
+}
+@media screen and (min-width: 767px) {
+  .ul {
+    max-width: 800px;
+  }
+}

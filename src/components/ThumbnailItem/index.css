@@ -1,0 +1,13 @@
+.li {
+  list-style-type: none;
+  max-width: 60px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+.button {
+  background-color: transparent;
+  border-width: 0px;
+}
+.for-opac {
+  opacity: 0.5;
+}
